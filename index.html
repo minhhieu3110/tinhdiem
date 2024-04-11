@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính Điểm</title>
+</head>
+<body>
+<script>
+    let vatli = prompt('Nhập điểm Vật Lý')
+    let hoahoc = prompt('Nhập điểm Hóa Học')
+    let sinhhoc = prompt('Nhập điểm Sinh Học')
+    vatli = parseInt(vatli);
+    hoahoc = parseInt(hoahoc);
+    sinhhoc = parseInt(sinhhoc);
+    document.write('Điểm vật lý: '+vatli+'<br>');
+    document.write('Điểm hóa học: '+hoahoc+'<br>');
+    document.write('Điểm sinh học: '+sinhhoc+'<br><hr>');
+    document.write('Trung Bình điểm là: '+(vatli*hoahoc*sinhhoc)/3+"<hr>")
+    document.write('Điểm tổng là: '+(vatli+hoahoc+sinhhoc))
+</script>
+</body>
+</html>
